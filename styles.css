@@ -1,0 +1,15 @@
+@import url("styles/header.css");
+
+:root {
+    --cor-de-fundo: #F2F5F7;
+    --cinza: #9799A6
+    --branco: #FFFFFF;
+    --font-principal: "Roboto";
+    --font-secundario: "Inter";
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--font-principal);
+}
+

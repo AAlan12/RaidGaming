@@ -1,0 +1,25 @@
+.container {
+    width: 94%;
+    margin: 0 auto;
+}
+
+.container__titulo {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.container__titulo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container-nav__link {
+    padding: 10px;
+    margin-bottom: 10px;
+    color: var(--cinza);
+    background-color: var(--branco);
+    text-decoration: none;
+    transition: .5s;
+    display: block;
+}
