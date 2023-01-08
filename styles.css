@@ -1,15 +1,20 @@
 @import url("styles/header.css");
 
 :root {
-    --cor-de-fundo: #F2F5F7;
-    --cinza: #9799A6
+    --cor-letras: #FFFBEB;
+    --cinza: #9799A6;
     --branco: #FFFFFF;
+    --azul-claro: #495579;
+    --azul: #263159;
+    --azul-escuro: #251749;
     --font-principal: "Roboto";
     --font-secundario: "Inter";
 }
 
 body {
-    background-color: var(--cor-de-fundo);
+    background-color: var(--azul-escuro);
     font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
