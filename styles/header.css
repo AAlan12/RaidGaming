@@ -15,6 +15,20 @@
     background: var(--azul-claro);
 }
 
+.container__botao:checked~.lista-menu {
+    display: block;
+}
+
+.lista-menu__item:hover {
+    background: var(--cor-letras);
+}
+
+.lista-menu__item:hover > .lista-menu__link {
+    -webkit-text-fill-color: var(--azul-claro);
+    text-decoration: none;
+    font-size: 18px;
+}
+
 .cabeçalho {
     background-color: var(--azul-claro);
     display: flex;
@@ -29,15 +43,16 @@
 }
 
 .container__img {
-    padding: 0.75;
+    padding: 0.75em;
+    
 }
 
-.container__icon {
-    height: 24px;
-}
-
-#logo {
-    margin-left: 10px;
+.container__icon{
+    height: 55px;
+    width: 35px;
+    /* site para mudar cor de svg : https://codepen.io/sosuke/pen/Pjoqqp */
+    filter: invert(88%) sepia(3%) saturate(1502%) hue-rotate(1deg) brightness(117%) contrast(101%);
+    
 }
 
 .lista-menu {
@@ -47,12 +62,7 @@
     width: 60vw;
 }
 
-.container__botao:checked ~ .lista-menu {
-    display: block;
-}
-
-
-.lista-menu-titulo,
+.lista-menu__titulo,
 .lista-menu__item {
     padding: 1em;
     background-color: var(--azul-claro);
@@ -82,34 +92,3 @@
 .container__texto {
     display: none;
 }
-/* .container {
-    background-color: var(--azul-claro);
-    height: 80px;
-    width: 100%;
-    padding: 0 25px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    top: 0;
-}
-
-.container__titulo {
-    font-weight: bold;
-    
-}
-
-.container__titulo a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.container-nav__link {
-    padding: 10px;
-    margin-bottom: 10px;
-    color: var(--cinza);
-    background-color: var(--branco);
-    text-decoration: none;
-    transition: .5s;
-    
-} */
