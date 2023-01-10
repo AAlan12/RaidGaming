@@ -80,9 +80,15 @@
     display: none;
 }
 
+.container__logo-titulo {
+    display: flex;
+    align-items: center;
+}
+
 .container__titulo {
     font-weight: bold;
     color: var(--cor-letras);
+    font-family: var(--font-secundario);
 }
 
 .opções {
@@ -91,4 +97,20 @@
 
 .container__texto {
     display: none;
+}
+
+/* Tablet */
+@media screen and (min-width:481px) {
+    .container__icon {
+        height: 65px;
+        width: 45px;
+    }
+    
+    .container__titulo {
+        font-size: 30px;
+    }
+
+    .cabeçalho__menu-hamburguer{
+        display: none;
+    }
 }
