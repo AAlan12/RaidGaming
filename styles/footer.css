@@ -1,0 +1,23 @@
+.rodape {
+    background-color: var(--azul-claro);
+    padding: 1em;
+}
+
+.container__logo-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.container__img-footer {
+    height: 45px;
+    width: 25px;
+    filter: invert(88%) sepia(3%) saturate(1502%) hue-rotate(1deg) brightness(117%) contrast(101%);
+}
+
+.container__titulo-footer {
+    font-weight: bold;
+    color: var(--branco-mel);
+    font-family: var(--font-secundario);
+}
