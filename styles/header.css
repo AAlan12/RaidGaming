@@ -102,7 +102,7 @@
 @media screen and (min-width:1024px) {
     
     .container__titulo {
-        font-size: 26px;
+        font-size: 30px;
     }
 
     .cabeçalho__menu-hamburguer{
@@ -112,7 +112,6 @@
     .opções {
         display: flex;
         align-items: center;
-        margin-left: 20px;
     }
 
     .opções__item {
@@ -130,16 +129,15 @@
         cursor: pointer;
     }
     
-    .opções__item:hover > .opções__link {
-        -webkit-text-fill-color: var(--azul-claro);
-        text-decoration: none;
-        font-size: 18px;
-    }
-
     .opções__link {
+        font-size: 20px;
         text-decoration: none;
         color: var(--branco-mel);
     }
 
-    
+    .opções__item:hover > .opções__link {
+        -webkit-text-fill-color: var(--azul-claro);
+        text-decoration: none;
+    }
+
 }
