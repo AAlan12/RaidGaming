@@ -35,6 +35,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+    max-width: 480px;
 }
 
 .container {
@@ -101,13 +102,20 @@
 
 /* Tablet */
 @media screen and (min-width:481px) {
+    /* 481px — 768 */
+    .cabeçalho {
+        width: 768px;
+        max-width: 768px;
+    }
+
     .container__icon {
-        height: 65px;
-        width: 45px;
+        height: 55px;
+        width: 35px;
+        /* padding: 0; */
     }
     
     .container__titulo {
-        font-size: 30px;
+        font-size: 26px;
     }
 
     .cabeçalho__menu-hamburguer{
@@ -117,7 +125,7 @@
     .opções {
         display: flex;
         align-items: center;
-        margin-left: 25px;
+        margin-left: 20px;
     }
 
     .opções__item {
@@ -132,6 +140,7 @@
 
     .opções__item:hover {
         background: var(--branco-mel);
+        cursor: pointer;
     }
     
     .opções__item:hover > .opções__link {
