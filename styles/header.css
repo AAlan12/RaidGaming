@@ -35,7 +35,6 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    max-width: 480px;
 }
 
 .container {
@@ -45,7 +44,6 @@
 
 .container__img {
     padding: 0.75em;
-    
 }
 
 .container__icon{
@@ -100,19 +98,8 @@
     display: none;
 }
 
-/* Tablet */
-@media screen and (min-width:481px) {
-    /* 481px — 768 */
-    .cabeçalho {
-        width: 768px;
-        max-width: 768px;
-    }
 
-    .container__icon {
-        height: 55px;
-        width: 35px;
-        /* padding: 0; */
-    }
+@media screen and (min-width:1024px) {
     
     .container__titulo {
         font-size: 26px;
