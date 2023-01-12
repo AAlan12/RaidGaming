@@ -64,7 +64,46 @@
         <h2 class="banner__titulo">RaidGaming!</h2>
         <p class="banner__txt">A sua plataforma gamer para formar party!</p>
     </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Games para formação de Party</h2>
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img src="img/lol.jpg" alt="League of Legends"></div>
+                  <div class="swiper-slide"><img src="img/vava.jpg" alt="Valorant"></div>
+                  <div class="swiper-slide"><img src="img/nw.jpg" alt="New World"></div>
+                  <div class="swiper-slide"><img src="img/mine.jpg" alt="Minecraft"></div>
+                  <div class="swiper-slide"><img src="img/ffxiv.jpg" alt="Final Fantasy 14"></div>
+                  <div class="swiper-slide"><img src="img/fifa.jpg" alt="Fifa 23"></div>
+                  <div class="swiper-slide"><img src="img/tft.jpg" alt="TFT"></div>
+                  <div class="swiper-slide"><img src="img/wow.jpg" alt="WOW"></div>
+                  <div class="swiper-slide"><img src="img/gta5.jpg" alt="GTA 5"></div>
+                  <div class="swiper-slide"><img src="img/csgo.jpg" alt="CSGO"></div>
+                  <div class="swiper-slide"><img src="img/fg.jpg" alt="Fall Guys"></div>
+                  <div class="swiper-slide"><img src="img/overwatch.jpg" alt="Overwatch"></div>
+                  <div class="swiper-slide"><img src="img/magic.jpg" alt="Magic"></div>
+                  ...
+                </div>
+                
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
     
+              </div>
+    
+              
+            </div>
+    </section>
+    
+
+    <hr/>
 
     <footer class="rodape">
         <div class="container__logo-footer">
@@ -74,5 +113,16 @@
 
     </footer>
     
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
 </body>
 </html>

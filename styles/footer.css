@@ -1,3 +1,7 @@
+hr {
+    margin: 0;
+}
+
 .rodape {
     background-color: var(--azul-claro);
     padding: 1em;
