@@ -10,8 +10,8 @@ Projeto desenvolvido com o intuito de praticar responsividade e flex-box
 | -------------  | --- |
 | :sparkles: Nome        | RaidGaming
 | :label: Tecnologias | HTML, CSS, Swiper
-| :rocket: URL         | https://aalan12.github.io/
-| :fire: Desafio     | https://aalan12.github.io/
+| :rocket: URL         | https://aalan12.github.io/RaidGaming/
+| :fire: Desafio     | https://aalan12.github.io/RaidGaming/
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![](https://github.com/AAlan12/RaidGaming/blob/main/img/vitdev/thumb2.PNG?raw=true#vitrinedev)
