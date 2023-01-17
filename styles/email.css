@@ -1,0 +1,37 @@
+.email {
+    background-image: url("../img/background-galaxy.png");
+    background-repeat: no-repeat;
+    padding: 1em;
+}
+
+.email__titulo, .email__texto {
+    background: var(--branco-mel);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.email__titulo {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.email__texto {
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+.email__contato {
+    padding: 1em;
+    border: 1px solid var(--branco-mel);
+    border-radius: 24px;
+    width: 90%;
+    color: var(--branco-mel);
+}
+
+.email__contato::placeholder {
+    font-family: var(--fonte-principal);
+    color: var(--azul-escuro);
+    background: url("../img/Email.svg") no-repeat;
+    padding-left: 2em;
+}

@@ -3,6 +3,7 @@
 @import url("styles/banner.css");
 @import url("styles/carrossel.css");
 @import url("styles/contatos.css");
+@import url("styles/email.css");
 
 :root {
     --branco-mel: #FFFBEB;
