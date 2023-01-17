@@ -1,0 +1,30 @@
+.contatos {
+    /* background-image: url("../img/background-galaxy.png");
+    background-repeat: no-repeat; */
+    text-align: center;
+    padding: 1em 0;
+}
+
+.contatos__titulo {
+    color: var(--branco-mel);
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.contatos__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contatos__item {
+    margin: 2em 0.5em;
+}
+
+.contatos__link {
+    color: var(--branco-mel);
+    padding: 0.5em;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
