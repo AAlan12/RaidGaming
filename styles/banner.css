@@ -2,6 +2,7 @@
     /* background: var(--azul); */
     background-image: url("../img/background-galaxy.png");
     background-repeat: no-repeat;
+    background-size: cover;
     color: var(--branco-mel);
     text-align: center;
     padding: 2.5em 2em;

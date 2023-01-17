@@ -1,6 +1,7 @@
 .email {
     background-image: url("../img/background-galaxy.png");
     background-repeat: no-repeat;
+    background-size: cover;
     padding: 1em;
 }
 
