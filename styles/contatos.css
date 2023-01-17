@@ -7,8 +7,8 @@
 
 .contatos__titulo {
     color: var(--branco-mel);
-    font-weight: 300;
-    margin-bottom: 1em;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .contatos__lista {
@@ -18,7 +18,19 @@
 }
 
 .contatos__item {
+    display: flex;
+    align-items: center;
     margin: 2em 0.5em;
+}
+
+.contatos__icon {
+    filter: invert(88%) sepia(3%) saturate(1502%) hue-rotate(1deg) brightness(117%) contrast(101%);
+}
+
+.contatos__icon-vitdev {
+    height: 20px;
+    width: 20px;
+    
 }
 
 .contatos__link {
